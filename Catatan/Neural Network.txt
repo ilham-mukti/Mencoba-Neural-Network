@@ -1,0 +1,26 @@
+Neural Network. 
+
+Feature engineering dilakukan oleh mesin.
+
+Memanfaatkan kombinasi linear.
+
+Aktivasi yang ada di hiden layer tidak boleh linear/identitas.
+
+
+1. Skalar
+2. Vektor
+3. Matriks 
+(Video 5-1)
+
+NCHW
+data, channel, height/baris, width/kolom
+4, 3, 25, 25
+4 gambar, 3 channel, 25 height, 25 width.
+
+
+Cara kerja NN:
+1. Tebak acak weights
+2. Feed Foward (maju ke layers selanjutnya)
+3. Hitung cost
+4. Backpropagation (mencari kemiringan/gradien dari cost)
+5. Update weights dan balik ke step 2.

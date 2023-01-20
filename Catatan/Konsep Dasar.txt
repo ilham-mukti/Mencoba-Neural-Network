@@ -1,0 +1,15 @@
+Konsep dasar.
+
+
+1. Kombinasi Linear (Video 5-1)
+2. Fungsi Aktivasi, fungsi yg diberikan setelah kita kombinasi linear. (Video 5-1)
+3. Fungsi itu semacam kalo regrese garis lurus. Kalo datanya eksponensial, bisa gunain fungsi exp. Kalo datanya klasifikasi, bisa gunain sigmoid (nama lain logistik regression). Jadi fungsi itu kyk semacam pola garisnya mau kyk gimana. (Video 3-3)
+4. Optimizer, 2 tipe. Gradien Descent dan Non-Gradient Descent (gridsearch, randomsearch). y = ax + b. Pakai mesin untuk mencari a dan b, dengan melihat error/loss terkecil. 
+
+Menhgitung loss untuk regresi pake MSE. Untuk Klasifikasi pake MCE, gabisa pake MSE karena kejebak plateau (Video 3-3)
+5. Hyperparameter.
+6. Multiclass vs Multilabel: Softmax vs Sigmoid
+7. Neural Network. Aktivasi yang ada di hiiden layer tidak boleh linear/identitas.
+8. Bias-Variance tradeoff. Klo Underfit, tambahin variance/kurangin bias. Kalo Overfit, tambahin bias/kurangin variance.
+9. Minibatch. Untuk menghindari kejebak di saddle points. (Video 5-2)
+10. Momentum (Video 5-3)

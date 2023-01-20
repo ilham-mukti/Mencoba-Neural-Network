@@ -1,0 +1,33 @@
+Convolutional Neural Network (Video 6-1)
+
+1. Filter/kernels dan Edge Detection
+2. Stride/langkah
+3. Padding
+4. Pooling
+5. Geser kiri kanan ga ngefek
+
+Cara kerja:
+Convol -> ReLU -> Pooling
+
+
+Data Augmentation (Video 6-2). 
+
+CNN gabisa membaca rotasi, masa muka kucing di rotate dikit CNN gabisa ngenalin
+
+Cara:
+1. Random crop
+2. Random Flip
+3. Random rotation
+4. Random Resized Crop
+5. Random Affine
+6. Color Jitter
+
+
+Image recognition
+Mengenali gambar, trus diklasifikasi ini gambar apa: kucing, cat, atau fish
+
+Objek detection
+Mengenali objek + titik objeknya
+
+Image Segmentation
+Ada gambar kucing, dan area kucingnya diwarnai

@@ -1,0 +1,26 @@
+
+1. One vs All (sigmoid)
+Dog vs non-dog
+
+2. One vs one (sigmoid), pake voting. tidak efisien.
+Dog vs Cat
+Dog vs Fish
+Cat vs fish
+
+
+============================
+Multiclass (Softmax), total 100% (di Deep Learning kebanyakan pake ini):
+Cat vs Fish vs Dog
+Pilih salah satu
+cat 87%
+fish 3%
+dog 10%
+
+Multilabel (Sigmoid):
+Bisa lebih dari 1,
+cat 95%
+fish 95%
+dog 3%
+
+
+Sigmoid itu cuma 0 sampai 1

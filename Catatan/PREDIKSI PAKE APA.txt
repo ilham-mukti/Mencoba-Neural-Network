@@ -1,0 +1,2 @@
+Prediksi Hama atau ennga itu pake lsoftmax, NLLLoss(), multiclass
+Prediksi label panorama pake Sigmoid, BCELLOSS(), multilabel
